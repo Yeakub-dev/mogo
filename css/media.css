@@ -1,0 +1,536 @@
+
+@media(min-width:1400px){
+
+    .navbar-brand h2 {
+        transform:scale(1.2);
+        -webkit-transform:scale(1.2);
+        -moz-transform:scale(1.2);
+        -ms-transform:scale(1.2);
+        -o-transform:scale(1.2);
+} 
+.navbar-expand-lg .navbar-nav .nav-item {
+	margin-left: -14px;
+	margin-right: 13px;
+}
+    .navbar-expand-lg .navbar-nav .nav-link {
+        font-size: 14px;
+        margin-right: -10px;
+        margin-left: -10px;
+    }
+    .ban-text h2 {
+        font-size: 72px;
+        margin-top: 275px;
+    }
+    .ban-text h1 {
+        font-size: 150px;
+        margin-bottom: 20px;
+    }
+    .ban-text h1::after {
+        bottom: 0px;
+    }
+    .ban-text button {
+        padding: 5px 15px;
+        margin-bottom: 199px;
+    }
+}
+
+@media(min-width:992px) and (max-width: 1199px){
+    .navbar-brand h2 {
+        font-size: 45px;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        font-size: 14px;
+        margin-right: -10px;
+        margin-left: -10px;
+    }
+    .ban-text h2 {
+        font-size: 50px;
+        margin-top: 275px;
+    }
+    .ban-text h1 {
+        font-size: 90px;
+        margin-bottom: 20px;
+    }
+    .ban-text h1::after {
+        bottom: 0px;
+    }
+    .ban-text button {
+        padding: 5px 15px;
+        margin-bottom: 199px;
+    }
+    #about {
+        padding-top: 43px;
+        padding-bottom: 60px;
+    }
+    .about-text p {
+        padding-top: 44px;
+        padding-bottom: 26px;
+        font-size: 20px;
+    }
+    #counter-up {
+        padding-top: 37px;
+        padding-bottom: 37px;
+    }
+    .counter-text .counter {
+        font-size: 60px;
+    }
+    .counter-text p {
+        font-size: 13px;
+    }
+    #service {
+        padding-top: 60px;
+        padding-bottom: 54px;
+    }
+    #comment {
+        padding-bottom: 0px;
+    }
+    #team {
+        padding-top: 65px;
+        padding-bottom: 33px;
+    }
+    #footer {
+        padding-top: 63px;
+        padding-bottom: 5px;
+    }
+    .footer-left-form input {
+        padding: 10px 43px;
+    }
+}
+
+
+@media(min-width:768px) and (max-width: 991px){
+    .navbar-nav {
+        background-color:rgba(236, 13, 32, 0.637);
+        text-align: center;
+    }
+    .navbar-expand-lg .navbar-nav .nav-item {
+        padding: 5px 0;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link::after {
+        display: none;
+    }
+    .navbar-brand h2 {
+        font-size: 30px;
+    }
+    .ban-text h2 {
+        font-size: 35px;
+        margin-top: 120px;
+    }
+    .ban-text h1 {
+        font-size: 65px;
+        margin-bottom: 30px;
+    }
+    .ban-text button {
+        padding: 4px 17px;
+        margin-bottom: 89px;
+    }
+    #about {
+        padding-top: 38px;
+        padding-bottom: 60px;
+    }
+    .about-text p {
+        padding-top: 43px;
+        padding-bottom: 25px;
+    }
+    #service {
+        padding-top: 71px;
+        padding-bottom: 56px;
+    }
+    #service .about-text {
+        padding-bottom: 68px;
+    }
+    #service .service-text p {
+        font-size: 13px;
+        line-height: 18px;
+    }
+    #team {
+        padding-top: 54px;
+        padding-bottom: 16px;
+    }
+    #team .about-icon-main i {
+        font-size: 18px;
+        padding: 13px 16px;
+    }
+    #footer {
+        padding-top: 50px;
+        padding-bottom: 23px;
+    }
+    .footer-left-text p {
+        font-size: 15px;
+        line-height: 24px;
+    }
+    .footer-left-text {
+        padding-top: 30px;
+        padding-bottom: 16px;
+    }
+    .footer-right-head {
+        padding-bottom: 14px;
+        padding-top: 47px;
+    }
+    #copyright {
+        padding-top: 35px;
+        padding-bottom: 16px;
+    }
+    .footer-left-form input {
+        position: relative;
+        padding: 10px 28px;
+    }
+    .footer-left-form {
+        padding-top: 27px;
+    }
+    .footer-left-icon i {
+        padding-left: 11px;
+        font-size: 19px;
+    }
+}
+
+
+
+@media(min-width:576px) and (max-width: 767px){
+
+    .navbar-nav {
+        background-color:rgba(236, 13, 32, 0.637);
+        text-align: center;
+    }
+    .navbar-expand-lg .navbar-nav .nav-item {
+        padding: 5px 0;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link::after {
+        display: none;
+    }
+    .navbar-brand h2 {
+        font-size: 30px;
+    }
+    .ban-text h1 {
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+    .ban-text h2 {
+        font-size: 40px;
+        margin-top: 120px;
+        margin-top: 50px;
+    }
+    .ban-text button {
+        padding: 4px 11px;
+        margin-bottom: 10px;
+    }
+    .ban-text h1::after {
+        width: 60px;
+        margin-top: 20px;
+        bottom: -5px;
+        left: 50%;
+    }
+    #about {
+        padding-top: 35px;
+        padding-bottom: 50px;
+    }
+    .about-text p {
+        padding-top: 36px;
+        padding-bottom: 13px;
+    }
+    #service {
+        padding-top: 40px;
+        padding-bottom: 36px;
+    }
+    #service .about-text {
+        padding-bottom: 60px;
+    }
+    #comment {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .comment-text p {
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .comment-icon i {
+        padding: 30px 30px;
+    }
+    #team {
+        padding-top: 44px;
+        padding-bottom: 30px;
+    }
+    #team .about-icon-main i {
+        font-size: 18px;
+        padding: 9px 9px;
+    }
+    .about-img-text {
+        padding-top: 20px;
+    }
+    .about-text p {
+        padding-top: 34px;
+        padding-bottom: 1px;
+    }
+    #work {
+        padding-top: 7px;
+    }
+    #footer {
+        padding-top: 40px;
+        padding-bottom: 15px;
+    }
+    .footer-left-text {
+        padding-top: 25px;
+        padding-bottom: 15px;
+    }
+    .footer-middle-head h3 {
+        padding-top: 30px;
+    }
+    .footer-middle-img {
+        padding-top: 22px;
+    }
+    .footer-middle-text {
+        padding-top: 36px;
+    }
+    .footer-right-head {
+        padding-bottom: 12px;
+        padding-top: 49px;
+    }
+}
+
+
+@media(max-width: 575.99px){
+
+     /* .navbar {
+        position: static;
+    }   */
+    .navbar-nav {
+        background-color:rgba(236, 13, 32, 0.637);
+        text-align: center;
+    }
+    .navbar-expand-lg .navbar-nav .nav-item {
+        padding: 5px 0;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link::after {
+        display: none;
+    }
+    .navbar-brand h2 {
+        font-size: 30px;
+    }
+    /* ====navbar css end===== */
+    .ban-text h2 {
+        font-size: 24px;
+        margin-top: 120px;
+        margin-bottom: 10px;
+    }
+    .ban-text h1 {
+        font-size: 20px;
+        
+        margin-bottom: 20px;
+    }
+    .ban-text h1::after {
+        display: none;
+    }
+    .ban-text button {
+        text-transform: uppercase;
+        padding: 3px 10px;
+        font-size: 10px;
+        margin-bottom: 80px;
+    }
+    /* ======banner css end===== */
+    /* ======about css start====== */
+    #about {
+        padding-top: 30px;
+        padding-bottom: 50px;
+    }
+    .about-text h2 {
+        font-size: 20px;
+        padding-top: 5px;
+    }
+    .about-text h2::after {
+        width: 50px;
+        bottom: -10px;
+    }
+    .about-text p {
+        padding-top: 30px;
+        padding-bottom: 20px;
+        font-size: 13px;
+        line-height: 18px; 
+    }
+     /* ======about css end====== */
+    /* ======counter start ===== */
+    #counter-up {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .counter-text .counter {
+        font-size: 40px;
+    }
+      /* ======counter end ===== */
+      /* ======service start===== */
+      #service {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+      #service .about-text {
+        padding-bottom: 40px;
+    }
+    #service .service-text p {
+        font-size: 13px;
+        line-height: 20px;
+    }
+    #service .service-icon {
+        margin-top: 0px;
+        margin-bottom: 1px;
+    }
+    .number-three {
+        padding-top: 0px;
+    }
+      /* ======service end===== */
+   /* ======comment start===== */
+   #comment {
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+.comment-icon {
+	text-align: center;
+}
+.comment-icon i {
+	padding: 20px;
+    font-size: 40px;
+}
+.comment-text p {
+	font-size: 18px;
+	line-height: 24px;
+	padding-top: 20px;
+	text-align: center;
+}
+.comment-text h5 {
+	margin-left: 20px;
+}
+.comment-text h5::after {
+	width: 50px;
+	left: 40px;
+}
+   /* ======comment end===== */
+
+   /* ======team start===== */
+   #team {
+	padding-top: 30px;
+	padding-bottom: 0px;
+}
+.about-text p {
+	padding-top: 20px;
+	padding-bottom: 10px;
+	font-size: 13px;
+	line-height: 22px;
+	margin: 0 10px;
+}
+.about-img-text {
+	padding-top: 10px;
+}
+.about-img-text h5 {
+	font-size: 13px;
+}
+.about-img-text p {
+	font-size: 13px;
+}
+   /* ======team end===== */
+   /* ======work start===== */
+   #work {
+	padding-top: 10px;
+}
+.about-text {
+	padding-bottom: 5px;
+	text-align: center;
+	padding: 0 5px;
+}
+* {
+	text-align: center;
+}
+   /* ======work end===== */
+
+   /* ======footer start===== */
+   #footer {
+	padding-top: 40px;
+	padding-bottom: 0px;
+}
+.footer-left-text {
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+.footer-logo{
+    text-align: left;
+}
+.footer-left-text p {
+	font-size: 13px;
+	line-height: 20px;
+	text-align: left;
+}
+.footer-followers {
+	padding-bottom: 10px;
+}
+.footer-left-icon {
+	padding-top: 15px;
+    text-align: left;
+}
+.footer-left-icon i {
+	padding-left: 5px;
+	font-size: 15px;
+}
+.footer-left-icon span {
+	font-size: 13px;
+    margin: 0 10px;
+}
+.footer-left-form {
+	padding-top: 20px;
+}
+.footer-left-form input {
+	position: relative;
+	padding: 10px 20px;
+}
+.footer-left-form input {
+	text-align: left;
+    margin-right: 10px;
+	padding: 2px 2px;
+    padding-right: 10px;
+}
+form{
+    text-align: left;
+}
+.footer-left-form button {
+	padding: 6px 8px;
+	margin-left: -16px;
+	font-size: 14px;
+}
+.footer-middle-head{
+    text-align: left;
+}
+.footer-middle-head h3 {
+	padding-top: 40px;
+}
+.pt-5 {
+    padding-top: 4rem !important;
+}
+.footer-middle-img {
+	padding-top: 0px;
+}
+.footer-middle-text {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.footer-right-head {
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+#copyright {
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+.copyright-head p {
+	font-size: 13px;
+}
+#copyright::after {
+	width: 360px;
+	margin-left: -200px;
+    bottom: 50px;
+}
+   /* ======footer end===== */
+}
+@media (min-width: 400px) and (max-width: 575.99px){
+    #service .service-text p {
+        padding: 0 110px;
+    }
+    .comment-text h5::after {
+        left: 160px;
+    }
+}
